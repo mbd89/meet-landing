@@ -1,0 +1,129 @@
+body{
+    font-family: 'Red Hat Display';
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+header{
+    text-align: center;
+    margin-top:3em;
+    margin-bottom: 5em;
+}
+
+h1{
+  color: #28283D;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+
+}
+
+.download{
+    color: white;
+    font-weight: 900;
+    background-color:#4D96A9;
+    border: none;
+    padding: 1.2em 2em;
+    border-radius: 25px;
+    
+}
+
+.hero-text{
+    color: #87879D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 540px;
+   
+}
+
+.hero-content{
+ display: flex;
+ gap: 50px;
+ margin-bottom: 20em;
+ 
+}
+
+.image-hero-right{
+ margin-top: 3em;
+ object-fit: cover;
+ 
+ }
+
+.carousel-images img{
+   width: 255px;
+   border-radius: 8px;
+
+}
+
+.carousel-images {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    margin-bottom: 5em;
+}
+
+
+.last-part p:first-child {
+    color: #4D96A9;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.last-part h2{
+   text-align: center;
+   color: #28283D;
+   font-size: 40px;
+   font-weight: 900;
+   line-height: 44px;
+}
+
+.last-part p:nth-of-type(2){
+    color: #87879D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.last-part{
+    max-width: 540px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10em;
+}
+
+footer{
+  
+    padding: 3em 2em;
+    background:url(assets/desktop/image-footer.jpg), lightgray 0px 0px / 100% 100% no-repeat;
+    
+}
+
+footer h2{
+    color: #FAFAFA;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    font-style: normal;
+}
+
+footer p{
+    color: #FAFAFA;
+    color: black;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
